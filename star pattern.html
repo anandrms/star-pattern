@@ -1,0 +1,104 @@
+//star pattern pyramid straight
+
+for (let i = 1; i <= 6; i++) {
+    let space = ' '.repeat(6 - i);
+    let pattern = '* '.repeat(i);
+    console.log(space + pattern + space);
+}
+
+
+//star pattern pyramid reverse
+
+for (let i = 6; i >= 1; i--) {
+    let space = ' '.repeat(6 - i);
+    let pattern = ' *'.repeat(i);
+    console.log(space + pattern + space);
+}
+
+
+//star pattern pyramid diamond
+
+for (let i = 1; i <= 6; i++) {
+    let space = ' '.repeat(6 - i);
+    let pattern = '* '.repeat(i);
+    console.log(space + pattern + space);
+}
+for (let i = 5; i >= 1; i--) {
+    let space = ' '.repeat(5 - i);
+    let pattern = ' *'.repeat(i);
+    console.log(space + pattern + space);
+}
+
+
+//star pattern pyramid inverse
+
+for (let i = 6; i >= 1; i--) {
+    let space = ' '.repeat(6 - i);
+    let pattern = '* '.repeat(i);
+    console.log(space + pattern + space);
+}
+for (let i = 2; i <= 6; i++) {
+    let space = ' '.repeat(6 - i);
+    let pattern = '* '.repeat(i);
+    console.log(space + pattern + space);
+}
+
+
+//star pattern hill straight
+
+for (let i = 2; i <= 6; i++) {
+    let space = ' '.repeat(6 - i);
+    let pattern = '*'.repeat(2 * i - 1);
+    console.log(space + pattern + space);
+}
+
+
+//star pattern hill reverse
+
+for (let i = 6; i >= 1; i--) {
+    let space = ' '.repeat(6 - i);
+    let pattern = '*'.repeat(2 * i - 1);
+    console.log(space + pattern + space);
+}
+
+
+//star pattern hill diamond
+
+for (let i = 1; i <= 6; i++) {
+    let space = ' '.repeat(6 - i);
+    let pattern = '*'.repeat(2 * i - 1);
+    console.log(space + pattern + space);
+}
+for (let i = 5; i >= 1; i--) {
+    let space = ' '.repeat(5 - i);
+    let pattern = '*'.repeat(2 * i - 1);
+    console.log(space + pattern + space);
+}
+
+
+//star pattern hill diamond inverse
+
+for (let i = 6; i >= 1; i--) {
+    let space = ' '.repeat(6 - i);
+    let pattern = '*'.repeat(2 * i - 1);
+    console.log(space + pattern + space);
+}
+for (let i = 2; i <= 6; i++) {
+    let space = ' '.repeat(6 - i);
+    let pattern = '*'.repeat(2 * i - 1);
+    console.log(space + pattern + space);
+}
+
+
+//star pattern hill diamond outer structure
+
+for (let i = 6; i >= 1; i--) {
+    let space = '*'.repeat(6 - i);
+    let pattern = ' '.repeat(2 * i - 1);
+    console.log(space + pattern + space);
+}
+for (let i = 1; i <= 6; i++) {
+    let space = '*'.repeat(6 - i);
+    let pattern = ' '.repeat(2 * i - 1);
+    console.log(space + pattern + space);
+}
